@@ -184,11 +184,11 @@ button:active {
     display: flex;
     justify-content: space-around;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .box-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 }
 .box-1,.box-2,.box-3 {
@@ -202,7 +202,7 @@ button:active {
     margin-bottom: 30px;
     margin-top: 15%;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .box-1,.box-2,.box-3 {
         display: flex;
         flex-direction: row;
@@ -260,7 +260,7 @@ button:active {
     align-items: center;
     margin-top: 15%;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .contact-me {
         height: 300px;
     }
@@ -271,7 +271,7 @@ button:active {
     font-weight: bold;
     border-bottom: 2px solid #fff;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .contact-me p {
         font-size: 25px;
     }
@@ -295,7 +295,7 @@ footer {
     align-items: center;
     position: relative;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     footer {
         height: 250px;
     }
@@ -309,7 +309,7 @@ footer p:nth-child(1) {
     line-height: 10px;
     margin-top: 5%;
 }
-@media sceen and (max-width:768px) {
+@media screen and (max-width:768px) {
     footer p:nth-child(1) {
         font-size: 25px;
     }
